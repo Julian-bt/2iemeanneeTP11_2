@@ -48,6 +48,5 @@ if __name__== '__main__':
 
     C8= c1!=c2
     print(C8)
-
     print(isinstance(c1,Complex))
     print(isinstance(c2,Complex))
