@@ -60,4 +60,6 @@ if __name__=='__main__':
     multiplication=matrice3*matrice2
     print(multiplication.getdata())
 
+    #j'ai oublie *= mais flemme
+
 
