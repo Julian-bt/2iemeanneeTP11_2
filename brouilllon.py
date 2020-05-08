@@ -1,8 +1,9 @@
-import numpy
-mat=numpy.array([[1,2],[3,4]])
-mat1=numpy.array(([2,2,2,2]))
-
-for i in mat:
-    print(i)
-
-print(mat[0][0])
+def a(n):
+  if n == 0:
+      return 0
+  elif n == 1:
+      return 1
+  else:
+      return a(n-1)+a(n-2)
+for i in range(0,4):
+  print(a(i),end=" ")
